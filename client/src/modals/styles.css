@@ -1,0 +1,47 @@
+
+#modal {
+
+    top: 5%;
+    left: 17.5%;
+    height: 80%;
+    width: 70%;
+    z-index: 5;
+}
+
+#mask {
+
+    background: rgba(0,0,0,0.6);
+}
+
+#closer {
+
+    top: 4px;
+    right: 4px;
+}
+
+#submitEvent {
+
+    height: 10%;
+    width: 75%;
+}
+
+.btn.submit {
+
+    transition: 200ms ease-in;
+}
+
+.btn.submit:hover {
+
+    transform: scale(1.05);
+}
+
+
+.btn.submit span {
+
+    transition: 200ms ease-in;
+}
+
+.btn.submit:hover span {
+
+    transform: scale(1.1);
+}

@@ -1,0 +1,49 @@
+
+
+.outline1 {
+
+  border: 1px solid red;
+}
+
+::-webkit-scrollbar {
+
+  width: 4px;
+}
+
+#nav {
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 10svh;
+}
+
+.mh-100 {
+
+  min-height: 100svh;
+}
+
+.mh-70 {
+
+  min-height: 70svh;
+}
+
+.center {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.event {
+
+  height: 40svh;
+  width: 100%;
+}
+
+.event-container {
+
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+}
